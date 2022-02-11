@@ -5,17 +5,13 @@
     grid-template-columns: repeat(2, 1fr) ;
     grid-template-areas:
         'video-principal propaganda'
-        'video-principal videos-lateral'
-        
-    ;
+        'video-principal videos-lateral';
     gap: 16px;
     padding: 10px;  
 }
 
 .video-principal { 
     grid-area: video-principal;
-      
-   
 }
 
 .propaganda {
@@ -53,7 +49,6 @@
 .videos-lateral .aside .conteudo-aside p {
     margin: 5px 0;
 }
-
 
 .titulo-video {
    padding-right: 30px;
